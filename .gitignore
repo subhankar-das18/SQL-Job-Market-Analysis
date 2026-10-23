@@ -1,0 +1,9 @@
+.vscode/
+.env
+*.log
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/data/csv_files/job_postings_fact.csv
+data/csv_files/job_postings_fact.csv
+data/csv_files/job_postings_fact_validated.csv
+.DS_Store
