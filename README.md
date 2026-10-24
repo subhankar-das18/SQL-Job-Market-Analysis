@@ -41,7 +41,7 @@ This project uses SQL to analyze a job postings dataset. It covers loading the d
 
 > Edit this list to match the questions your queries actually answer.
 
----
+---   
 
 ## 3. Tools Used
 
