@@ -6,9 +6,7 @@ WITH skill_demand AS (
     FROM job_postings_fact jp
     INNER JOIN skills_job_dim sjd ON jp.job_id = sjd.job_id
     INNER JOIN skills_dim sd      ON sd.skill_id = sjd.skill_id
-    WHERE jp.job_title_short = 'Data Analyst'
-      AND jp.job_work_from_home = TRUE
-      AND jp.salary_year_avg IS NOT NULL
+    WHERE jp.salary_year_avg IS NOT NULL
     GROUP BY sd.skill_id, sd.skills          
 ),
 
@@ -20,9 +18,7 @@ average_salary AS (
     FROM job_postings_fact jp
     INNER JOIN skills_job_dim sjd ON jp.job_id = sjd.job_id
     INNER JOIN skills_dim sd      ON sd.skill_id = sjd.skill_id
-    WHERE jp.job_title_short = 'Data Analyst'
-      AND jp.job_work_from_home = TRUE      
-      AND jp.salary_year_avg IS NOT NULL
+    WHERE jp.salary_year_avg IS NOT NULL
     GROUP BY sd.skill_id, sd.skills          
 )
 
