@@ -7,4 +7,4 @@ from job_postings_fact jp
  where jp.salary_year_avg is not null
  group by sd.skills
  order by avg_salary desc
- limit 25
+ limit 25 
