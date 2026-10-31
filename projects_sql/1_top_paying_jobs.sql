@@ -7,4 +7,4 @@ from job_postings_fact jp
 left join company_dim cd on jp.company_id = cd.company_id
 where salary_year_avg is not null
 order by jp.salary_year_avg desc
-limit 10   
+limit 10    
