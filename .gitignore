@@ -5,6 +5,6 @@
 __pycache__/+
 .ipynb_checkpoints/data/csv_files/job_postings_fact.csv
 data/csv_files/job_postings_fact.csv
-data/csv_files/job_postings_fact_validated.csv
+data/csv_files/job_postings_fact_validated.csv 
 .DS_Store
 
