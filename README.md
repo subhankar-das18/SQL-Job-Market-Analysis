@@ -1,4 +1,4 @@
-# SQL Job Market Analysis
+# SQL Job Market Analysis  
 
 An SQL project that explores job posting data to find out which roles pay the most, which skills are in demand, and which skills are worth learning.
 
