@@ -4,7 +4,7 @@ An SQL project that explores job posting data to find out which roles pay the mo
 
 ---   
 
-## Table of Contents
+## Table of Contents  
 
 1. [Project Overview](#1-project-overview)
 2. [Questions Answered](#2-questions-answered)
