@@ -2,7 +2,7 @@
 
 An SQL project that explores job posting data to find out which roles pay the most, which skills are in demand, and which skills are worth learning.
 
----
+---   
 
 ## Table of Contents
 
